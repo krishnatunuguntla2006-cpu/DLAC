@@ -1,0 +1,2 @@
+Model,Dataset,Images,Inference Operations,Average Latency (ms),Median Latency (ms),P95 Latency (ms),Throughput (images/sec),Process RAM (MB),GPU,GPU Memory (MB)
+yolov8n.pt,data,10,20,37.39,37.44,40.49,25.94,440.36,CPU,N/A

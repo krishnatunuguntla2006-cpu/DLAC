@@ -1,0 +1,54 @@
+[
+    {
+        "image": "idd\\images\\traffic_001.jpg",
+        "detections": []
+    },
+    {
+        "image": "idd\\images\\traffic_002.jpg",
+        "detections": []
+    },
+    {
+        "image": "idd\\images\\traffic_003.jpg",
+        "detections": []
+    },
+    {
+        "image": "idd\\images\\traffic_004.jpg",
+        "detections": []
+    },
+    {
+        "image": "audit\\images\\img_001.jpg",
+        "detections": []
+    },
+    {
+        "image": "audit\\images\\img_002.jpg",
+        "detections": [
+            {
+                "class_id": 11,
+                "class_name": "stop sign",
+                "confidence": 0.4259,
+                "bbox_xyxy": [
+                    48.89,
+                    73.79,
+                    186.47,
+                    270.68
+                ]
+            }
+        ]
+    },
+    {
+        "image": "audit\\images\\img_003.jpg",
+        "detections": []
+    },
+    {
+        "image": "audit\\images\\img_004.jpg",
+        "detections": []
+    },
+    {
+        "image": "audit\\images\\img_005.jpg",
+        "detections": []
+    },
+    {
+        "image": "audit\\images\\img_006.jpg",
+        "detections": []
+    }
+]
