@@ -8,6 +8,8 @@ __pycache__/
 *.plan
 runs/
 failures/
+.ultralytics/
+*.zip
 data/*
 !data/.gitkeep
 models/*
