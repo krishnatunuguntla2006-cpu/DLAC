@@ -13,6 +13,9 @@ Update MODEL_PATH and IMAGE_PATH to match your project.
 """
 
 import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 # Configure Ultralytics to use local directory and disable auto-updates
 os.environ.setdefault("YOLO_CONFIG_DIR", os.path.abspath(".ultralytics"))
 os.environ.setdefault("ULTRALYTICS_AUTOUPDATE", "0")
